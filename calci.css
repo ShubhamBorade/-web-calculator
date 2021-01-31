@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+button{
+    width:70px;
+    height:45px;
+    background-color: rgb(194, 214, 214);
+    font-size: 25px;
+    
+}
+input{
+    width: 290px;
+    height: 30px;
+    background-color: #efefef;
+    font-size: 22px;
+}
+#inner{
+    background-color: bisque;
+    border:3px solid gray;
+    width:300px;
+    box-shadow: 5px 5px 5px 5px #bbc7ca;
+}
+body{
+    background: url(https://cdn.pixabay.com/photo/2014/09/21/14/39/surface-455124__480.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    color: rgb(32, 2, 2);
+}
